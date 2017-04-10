@@ -6,4 +6,4 @@ News widget with React + ES6 + Webpack + NewYork Times API
 
   npm install
 
-  npm start
+  npm install
