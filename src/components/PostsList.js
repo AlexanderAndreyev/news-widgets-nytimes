@@ -5,19 +5,23 @@ import Post from './Post';
 
 class PostsList extends React.Component {
 
-  createPost(post, index) {
-    <Post key={index}
-          link={post.link}
-          title={post.title}
-          content={post.content}
-          date={post.date}
-    />
+  createPost(posts) {
+    const result = [];
+    for (let i = 0; i < posts.length; i++) {
+      result.push(<Post key={i}
+            link={posts[i].link}
+            title={posts[i].title}
+            content={posts[i].content}
+            date={posts[i].date}
+      />)
+    }
+    return result;
   }
 
   render () {
     return (
       <div id="wrapper">
-        { this.props.posts.map(this.createPost) }
+        { this.createPost(this.props.posts) }
       </div>
     )
   }

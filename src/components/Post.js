@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Post({ link, title, content, date }) {
+function Post({ link, title, content, date }) {
   return (
     <div>
-      <h1>{ this.props.title }</h1>
-      <p>{ this.props.content }</p>
-      <p>{ this.props.link }</p>
-      <p>{ this.props.date }</p>
+      <h1>{ title }</h1>
+      <p>{ content }</p>
+      <p>{ link }</p>
+      <p>{ date }</p>
     </div>
   )
 }
@@ -18,3 +18,5 @@ Post.propTypes = {
   content: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired
 }
+
+export default Post;
