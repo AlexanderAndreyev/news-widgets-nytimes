@@ -21,6 +21,10 @@ class PostsList extends React.Component {
   render () {
     return (
       <div id="wrapper">
+        <div id="header">
+          <h1 id="main-header">News widget with React and NY Times API</h1>
+          <p>by Alex Andreyev</p>
+        </div>
         { this.createPost(this.props.posts) }
       </div>
     )

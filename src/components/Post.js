@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 
 function Post({ link, title, content, date }) {
   return (
-    <div>
-      <h1>{ title }</h1>
-      <p>{ content }</p>
-      <a href={ link } target="_blank">Read more</a>
-      <p>{ date }</p>
+    <div id="post">
+      <h1 id="post-header">{ title }</h1>
+      <p id="content">{ content }</p>
+      <p id="link"><a href={ link } target="_blank">Read more</a></p>
+      <p id="date">{ date }</p>
     </div>
   )
 }

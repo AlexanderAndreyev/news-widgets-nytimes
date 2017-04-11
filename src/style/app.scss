@@ -1,0 +1,50 @@
+#header {
+  background-color: #806BB0;
+  border-radius: 10px;
+  height: 250px;
+  padding: 150px 0 0 0;
+  #main-header {
+    text-align: center;
+    margin: 0;
+  }
+  p {
+    text-align: center;
+  }
+}
+
+#post {
+  background-color: #FBF587;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  #post-header, #content, #link {
+    text-align: center;
+    margin: 30px auto;
+  }
+  #date {
+    text-align: right;
+  }
+  #link {
+    a {
+      border: 1px solid #806BB0;
+      padding: 10px;
+      border-radius: 10px;
+      &:link {
+        color: #806BB0;
+        text-decoration: none;
+      }
+      &:hover {
+        color: #806BB0;
+        text-decoration: none;
+      }
+      &:visited {
+        color: #806BB0;
+        text-decoration: none;
+      }
+      &:active {
+        color: #806BB0;
+        text-decoration: none;
+      }
+    }
+  }
+}
