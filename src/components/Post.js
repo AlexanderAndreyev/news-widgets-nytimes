@@ -6,7 +6,7 @@ function Post({ link, title, content, date }) {
     <div>
       <h1>{ title }</h1>
       <p>{ content }</p>
-      <p>{ link }</p>
+      <a href={ link } target="_blank">Read more</a>
       <p>{ date }</p>
     </div>
   )
