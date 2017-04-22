@@ -40,7 +40,6 @@ body {
   #date {
     text-align: right;
     font-size: 10px;
-
   }
   #link {
     display: block;
@@ -57,10 +56,11 @@ body {
     &:hover {
       color: white;
       text-decoration: none;
+      border: 1px solid #626262;
       background-color: #626262;
-      -webkit-transition: all 0.2s linear 0.5s;
-     -moz-transition: all 0.2s linear 0.5s;
-     transition: all 0.2s linear 0.5s;
+      -webkit-transition: all 0.2s linear 0s;
+     -moz-transition: all 0.2s linear 0s;
+     transition: all 0.2s linear 0s;
     }
   }
 }
