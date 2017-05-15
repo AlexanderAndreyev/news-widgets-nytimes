@@ -16,6 +16,8 @@
     <div ng-repeat="oneNews in news">
       <h3>{{oneNews.title}}</h3>
       <p>{{oneNews.abstract}}</p>
+      <p>{{oneNews.media[0]["media-metadata"][2].url}}</p>
+      <img style="display: block" ng-src="{{oneNews.media[0]['media-metadata'][2].url}}" alt="img">
       <a href="{{oneNews.url}}">Read more</a>
       <p>{{oneNews.published_date}}</p>
     </div>
