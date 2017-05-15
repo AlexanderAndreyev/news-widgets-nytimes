@@ -13,6 +13,12 @@
   <header ng-include="'header.html'"></header>
   <div ng-controller="newsWidgetAppController">
     <h1>Hello!</h1>
+    <div ng-repeat="oneNews in news">
+      <h3>{{oneNews.title}}</h3>
+      <p>{{oneNews.abstract}}</p>
+      <a href="{{oneNews.url}}">Read more</a>
+      <p>{{oneNews.published_date}}</p>
+    </div>
   </div>
 </body>
 </html>
