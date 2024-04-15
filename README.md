@@ -11,3 +11,4 @@ News widget with React + ES6 + Webpack + NewYork Times API
     npm start
 
 2. Second implementation: vanilla JS + NewYork Times API
+3. Angular
