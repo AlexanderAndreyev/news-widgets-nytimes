@@ -1,4 +1,4 @@
-1. First implementation: news widget with React + ES6 + Webpack + NewYork Times API
+1. First implementation: news widget with React + ES6 + Webpack + NewYork Times API 
 
 News widget with React + ES6 + Webpack + NewYork Times API
 
